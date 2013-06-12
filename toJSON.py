@@ -5,7 +5,7 @@ except ImportError: import json
 # This follows google's rules for conversion of XML to JSON
 
 def iterNodes(node, parentDict):
-  nodeDict = {}
+	nodeDict = {}
 	try:
 		nodeDict.update(node.attrib)
 	except AttributeError:
